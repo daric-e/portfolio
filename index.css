@@ -1,0 +1,31 @@
+body {
+    background-color: #7C5FE3;
+}
+
+main {
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+img {
+    width: 400px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.img-container {
+    max-width: fit-content;
+    margin: 0 auto;
+}
