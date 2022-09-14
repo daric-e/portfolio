@@ -1,3 +1,4 @@
+/* HTML Selectors */
 body {
     background-color: ghostwhite;
 }
@@ -18,6 +19,16 @@ img {
     width: 400px;
 }
 
+a {
+    /* Making inline block to use transform on hover */
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    transition: all 250ms ease-in-out;
+}
+
+/* Class Selectors */
+
 .center {
     text-align: center;
 }
@@ -35,4 +46,17 @@ img {
 .about-me {
     height: 250px;
     padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Class With Psudo-class Selectors */
+
+.hov:visited {
+    color: blue;
+}
+
+.hov:hover {
+    color: rgb(100, 0, 0);
+    text-decoration: underline;
+    transform: scale(1.1);
 }
