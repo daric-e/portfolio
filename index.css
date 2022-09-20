@@ -23,7 +23,7 @@ a {
     /* Making inline block to use transform on hover */
     display: inline-block;
     text-decoration: none;
-    color: red;
+    color: #B30000;
     transition: all 250ms ease-in-out;
 }
 
@@ -56,7 +56,6 @@ a {
 }
 
 .hov:hover {
-    color: rgb(100, 0, 0);
     text-decoration: underline;
     transform: scale(1.1);
 }
